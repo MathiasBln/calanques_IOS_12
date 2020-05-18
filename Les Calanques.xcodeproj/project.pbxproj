@@ -58,16 +58,40 @@
 		096AD0A22472B89E00DD91DB /* Les Calanques */ = {
 			isa = PBXGroup;
 			children = (
+				096AD0BD2472BA9700DD91DB /* Controller */,
+				096AD0BB2472BA8700DD91DB /* Modele */,
+				096AD0BC2472BA8F00DD91DB /* View */,
 				096AD0A32472B89E00DD91DB /* AppDelegate.swift */,
 				096AD0A52472B89E00DD91DB /* SceneDelegate.swift */,
-				096AD0A72472B89E00DD91DB /* FirstViewController.swift */,
-				096AD0A92472B89E00DD91DB /* SecondViewController.swift */,
 				096AD0AB2472B89E00DD91DB /* Main.storyboard */,
 				096AD0AE2472B8A200DD91DB /* Assets.xcassets */,
 				096AD0B02472B8A200DD91DB /* LaunchScreen.storyboard */,
 				096AD0B32472B8A200DD91DB /* Info.plist */,
 			);
 			path = "Les Calanques";
+			sourceTree = "<group>";
+		};
+		096AD0BB2472BA8700DD91DB /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		096AD0BC2472BA8F00DD91DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		096AD0BD2472BA9700DD91DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				096AD0A72472B89E00DD91DB /* FirstViewController.swift */,
+				096AD0A92472B89E00DD91DB /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
