@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		096AD0A42472B89E00DD91DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0A32472B89E00DD91DB /* AppDelegate.swift */; };
 		096AD0A62472B89E00DD91DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0A52472B89E00DD91DB /* SceneDelegate.swift */; };
-		096AD0A82472B89E00DD91DB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0A72472B89E00DD91DB /* FirstViewController.swift */; };
-		096AD0AA2472B89E00DD91DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0A92472B89E00DD91DB /* SecondViewController.swift */; };
 		096AD0AD2472B89E00DD91DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096AD0AB2472B89E00DD91DB /* Main.storyboard */; };
 		096AD0AF2472B8A200DD91DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096AD0AE2472B8A200DD91DB /* Assets.xcassets */; };
 		096AD0B22472B8A200DD91DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096AD0B02472B8A200DD91DB /* LaunchScreen.storyboard */; };
+		096AD0BF2472BB4C00DD91DB /* Calanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0BE2472BB4C00DD91DB /* Calanque.swift */; };
+		096AD0C12472BCA300DD91DB /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0C02472BCA300DD91DB /* CalanqueCollection.swift */; };
+		096AD0C32472BDC800DD91DB /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0C22472BDC800DD91DB /* ControllerAvecTableView.swift */; };
+		096AD0C52472BDE000DD91DB /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0C42472BDE000DD91DB /* ControllerAvecCarte.swift */; };
+		096AD0C72472BDFC00DD91DB /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0C62472BDFC00DD91DB /* TableViewIntegreeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		096AD0A02472B89E00DD91DB /* Les Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		096AD0A32472B89E00DD91DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		096AD0A52472B89E00DD91DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		096AD0A72472B89E00DD91DB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		096AD0A92472B89E00DD91DB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		096AD0AC2472B89E00DD91DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		096AD0AE2472B8A200DD91DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		096AD0B12472B8A200DD91DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		096AD0B32472B8A200DD91DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096AD0BE2472BB4C00DD91DB /* Calanque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanque.swift; sourceTree = "<group>"; };
+		096AD0C02472BCA300DD91DB /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		096AD0C22472BDC800DD91DB /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableView.swift; sourceTree = "<group>"; };
+		096AD0C42472BDE000DD91DB /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		096AD0C62472BDFC00DD91DB /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 		096AD0BB2472BA8700DD91DB /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				096AD0BE2472BB4C00DD91DB /* Calanque.swift */,
+				096AD0C02472BCA300DD91DB /* CalanqueCollection.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -88,8 +96,9 @@
 		096AD0BD2472BA9700DD91DB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				096AD0A72472B89E00DD91DB /* FirstViewController.swift */,
-				096AD0A92472B89E00DD91DB /* SecondViewController.swift */,
+				096AD0C22472BDC800DD91DB /* ControllerAvecTableView.swift */,
+				096AD0C42472BDE000DD91DB /* ControllerAvecCarte.swift */,
+				096AD0C62472BDFC00DD91DB /* TableViewIntegreeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,10 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096AD0AA2472B89E00DD91DB /* SecondViewController.swift in Sources */,
-				096AD0A82472B89E00DD91DB /* FirstViewController.swift in Sources */,
+				096AD0BF2472BB4C00DD91DB /* Calanque.swift in Sources */,
+				096AD0C32472BDC800DD91DB /* ControllerAvecTableView.swift in Sources */,
+				096AD0C72472BDFC00DD91DB /* TableViewIntegreeController.swift in Sources */,
 				096AD0A42472B89E00DD91DB /* AppDelegate.swift in Sources */,
 				096AD0A62472B89E00DD91DB /* SceneDelegate.swift in Sources */,
+				096AD0C52472BDE000DD91DB /* ControllerAvecCarte.swift in Sources */,
+				096AD0C12472BCA300DD91DB /* CalanqueCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
