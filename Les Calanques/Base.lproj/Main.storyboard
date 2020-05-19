@@ -107,7 +107,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <navigationItem key="navigationItem" id="28J-EK-XzB"/>
+                    <navigationItem key="navigationItem" id="28J-EK-XzB">
+                        <barButtonItem key="rightBarButtonItem" title="reload" id="aEO-T6-4FK">
+                            <connections>
+                                <action selector="reloadAction:" destination="9pv-A4-QxB" id="8oR-ad-seg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="OLw-JD-FNQ" id="iax-Tw-eCb"/>
                         <segue destination="DBJ-SG-upn" kind="show" identifier="Detail" id="Ecq-At-YDP"/>
@@ -190,7 +196,13 @@
                             <outlet property="delegate" destination="zvB-rN-6E7" id="Akk-f4-mjg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="YeI-LS-Quu"/>
+                    <navigationItem key="navigationItem" id="YeI-LS-Quu">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="rjZ-SV-nfN">
+                            <connections>
+                                <action selector="reloadAction:" destination="zvB-rN-6E7" id="xoz-s7-TRo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="DBJ-SG-upn" kind="show" identifier="Detail" id="rZP-Hj-rtX"/>
                     </connections>
@@ -338,7 +350,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rZP-Hj-rtX"/>
+        <segue reference="Ecq-At-YDP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="earth" width="32" height="32"/>

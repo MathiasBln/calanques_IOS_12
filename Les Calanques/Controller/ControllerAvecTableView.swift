@@ -56,7 +56,17 @@ class ControllerAvecTableView: UIViewController, UITableViewDelegate, UITableVie
         }
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            calanques.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
     
+    @IBAction func reloadAction(_ sender: Any) {
+        calanques = CalanqueCollection().all()
+        tableView.reloadData()
+    }
     
     /*
     // MARK: - Navigation
