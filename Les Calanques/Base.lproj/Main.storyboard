@@ -263,10 +263,45 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8gs-cF-WHK">
+                                <rect key="frame" x="0.0" y="56" width="414" height="703"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8gs-cF-WHK" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="6Ke-6L-UhL"/>
+                            <constraint firstItem="8gs-cF-WHK" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="HJz-le-Izv"/>
+                            <constraint firstItem="8gs-cF-WHK" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="kWL-Ad-17c"/>
+                            <constraint firstItem="8gs-cF-WHK" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="t9Y-aY-n6Q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8Hp-hA-pvU"/>
+                    <navigationItem key="navigationItem" id="8Hp-hA-pvU">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="dqF-S7-U9V">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="27" id="28M-Ga-GIt"/>
+                            </constraints>
+                            <segments>
+                                <segment title="Standard"/>
+                                <segment title="Satellite"/>
+                                <segment title="Hybride"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentedChanged:" destination="8rJ-Kc-sve" eventType="valueChanged" id="bPO-R5-TIN"/>
+                            </connections>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="placeholder" id="UXc-bn-3bt">
+                            <connections>
+                                <action selector="getPosition:" destination="8rJ-Kc-sve" id="TX9-Jz-QWE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="8gs-cF-WHK" id="4np-eR-ucc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -431,6 +466,7 @@
         <image name="list" width="32" height="32"/>
         <image name="morgiou" width="1600" height="1200"/>
         <image name="mounine" width="4608" height="3072"/>
+        <image name="placeholder" width="32" height="32"/>
         <image name="sormiou" width="3888" height="2592"/>
     </resources>
 </document>
