@@ -20,6 +20,7 @@
 		096AD0C92472C46E00DD91DB /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0C82472C46D00DD91DB /* CalanqueCell.swift */; };
 		096AD0CB2472C8F200DD91DB /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0CA2472C8F200DD91DB /* ImageRonde.swift */; };
 		09BDB9FF24740583002E8F03 /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BDB9FE24740583002E8F03 /* CalanqueCellAlternative.swift */; };
+		09BDBA0124740B20002E8F03 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BDBA0024740B20002E8F03 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		096AD0C82472C46D00DD91DB /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		096AD0CA2472C8F200DD91DB /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
 		09BDB9FE24740583002E8F03 /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
+		09BDBA0024740B20002E8F03 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				096AD0C22472BDC800DD91DB /* ControllerAvecTableView.swift */,
 				096AD0C42472BDE000DD91DB /* ControllerAvecCarte.swift */,
 				096AD0C62472BDFC00DD91DB /* TableViewIntegreeController.swift */,
+				09BDBA0024740B20002E8F03 /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				096AD0BF2472BB4C00DD91DB /* Calanque.swift in Sources */,
 				09BDB9FF24740583002E8F03 /* CalanqueCellAlternative.swift in Sources */,
+				09BDBA0124740B20002E8F03 /* DetailController.swift in Sources */,
 				096AD0C32472BDC800DD91DB /* ControllerAvecTableView.swift in Sources */,
 				096AD0C72472BDFC00DD91DB /* TableViewIntegreeController.swift in Sources */,
 				096AD0A42472B89E00DD91DB /* AppDelegate.swift in Sources */,
