@@ -280,6 +280,7 @@
                     <navigationItem key="navigationItem" id="8Hp-hA-pvU">
                         <nil key="title"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="dqF-S7-U9V">
+                            <rect key="frame" x="93.5" y="12" width="227" height="32"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="27" id="28M-Ga-GIt"/>
@@ -301,6 +302,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="8gs-cF-WHK" id="4np-eR-ucc"/>
+                        <segue destination="DBJ-SG-upn" kind="show" identifier="Detail" id="UfM-YT-Slz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -459,7 +461,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ecq-At-YDP"/>
+        <segue reference="UfM-YT-Slz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="earth" width="32" height="32"/>

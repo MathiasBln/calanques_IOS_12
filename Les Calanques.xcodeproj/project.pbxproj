@@ -19,6 +19,8 @@
 		096AD0C72472BDFC00DD91DB /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0C62472BDFC00DD91DB /* TableViewIntegreeController.swift */; };
 		096AD0C92472C46E00DD91DB /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0C82472C46D00DD91DB /* CalanqueCell.swift */; };
 		096AD0CB2472C8F200DD91DB /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096AD0CA2472C8F200DD91DB /* ImageRonde.swift */; };
+		099922FF247526BF00A5859B /* MonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099922FE247526BF00A5859B /* MonAnnotation.swift */; };
+		0999230124752A6B00A5859B /* MonAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999230024752A6B00A5859B /* MonAnnotationView.swift */; };
 		09BDB9FF24740583002E8F03 /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BDB9FE24740583002E8F03 /* CalanqueCellAlternative.swift */; };
 		09BDBA0124740B20002E8F03 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BDBA0024740B20002E8F03 /* DetailController.swift */; };
 		09BDBA0324741317002E8F03 /* BoutonArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BDBA0224741317002E8F03 /* BoutonArrondi.swift */; };
@@ -39,6 +41,8 @@
 		096AD0C62472BDFC00DD91DB /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 		096AD0C82472C46D00DD91DB /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		096AD0CA2472C8F200DD91DB /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
+		099922FE247526BF00A5859B /* MonAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotation.swift; sourceTree = "<group>"; };
+		0999230024752A6B00A5859B /* MonAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotationView.swift; sourceTree = "<group>"; };
 		09BDB9FE24740583002E8F03 /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
 		09BDBA0024740B20002E8F03 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		09BDBA0224741317002E8F03 /* BoutonArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonArrondi.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 			children = (
 				096AD0BE2472BB4C00DD91DB /* Calanque.swift */,
 				096AD0C02472BCA300DD91DB /* CalanqueCollection.swift */,
+				099922FE247526BF00A5859B /* MonAnnotation.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 				096AD0CA2472C8F200DD91DB /* ImageRonde.swift */,
 				09BDB9FE24740583002E8F03 /* CalanqueCellAlternative.swift */,
 				09BDBA0224741317002E8F03 /* BoutonArrondi.swift */,
+				0999230024752A6B00A5859B /* MonAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 				09BDBA0324741317002E8F03 /* BoutonArrondi.swift in Sources */,
 				096AD0CB2472C8F200DD91DB /* ImageRonde.swift in Sources */,
 				096AD0C12472BCA300DD91DB /* CalanqueCollection.swift in Sources */,
+				099922FF247526BF00A5859B /* MonAnnotation.swift in Sources */,
+				0999230124752A6B00A5859B /* MonAnnotationView.swift in Sources */,
 				096AD0C92472C46E00DD91DB /* CalanqueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
